@@ -66,6 +66,31 @@
             text-shadow: 0 0 5px #ffffff; /* 增加白色阴影 */
         }
 
+        /* 表格样式 */
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-size: 1.2rem;
+        }
+
+        table, th, td {
+            border: 2px solid black;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ffcc00; /* 黄色 */
+        }
+
+        td {
+            background-color: rgba(255, 255, 255, 0.9); /* 半透明白色 */
+        }
+
         /* 按钮样式 */
         button {
             background-color: #ffcc00; /* 黄色 */
@@ -131,70 +156,40 @@
         <p>In my free time, I enjoy playing basketball and baseball, as sports keep me energized. Additionally, I'm really into music and am learning to play the guitar. I'm especially a fan of Jay Chou's music style.</p>
         <p>As for academics, I have a strong interest in both math and Chinese. Even though my math grades aren't the best, I'm very curious about it and enjoy exploring its complexities. I believe that with continuous effort, I can improve in these areas.</p>
         <p>I'm happy to meet you all and look forward to more opportunities to connect! Thank you!</p>
+        
+        <!-- 表格部分 -->
+        <table>
+            <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>内容</th>
+                    <th>信息</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>姓名</td>
+                    <td>Jay</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>年龄</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>爱好</td>
+                    <td>music</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- 表格结束 -->
+
     </section>
 
     <footer>
         © 2024 Wang Shuo's SpongeBob Website. All Rights Reserved.
     </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>信息表格</title>
-    <style>
-        table {
-            width: 60%;
-            border-collapse: collapse;
-            margin: 50px auto;
-            font-family: 'Arial', sans-serif;
-            font-size: 1.5rem;
-        }
-
-        table, th, td {
-            border: 2px solid black;
-        }
-
-        th, td {
-            text-align: center;
-            padding: 15px;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
-
-    <table>
-        <thead>
-            <tr>
-                <th>编号</th>
-                <th>内容</th>
-                <th>信息</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>姓名</td>
-                <td>Jay</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>年龄</td>
-                <td>15</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>爱好</td>
-                <td>music</td>
-            </tr>
-        </tbody>
-    </table>
-
 </body>
 </html>
