@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wang Shuo's SpongeBob Website</title>
+    <style>
+        /* 全局设置 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333; /* 深色文字 */
+            background-image: url('https://sl.bing.net/g1hMqeq2hau'); /* 使用海绵宝宝图片背景 */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        /* 标头样式 */
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: #ffcc00; /* 黄色 */
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5rem;
+            text-shadow: 0 0 10px #ffffff; /* 增加白色阴影 */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffcc00; /* 黄色 */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #ff6699; /* 粉色 */
+        }
+
+        /* 主要内容部分 */
+        section {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.9); /* 透明白色 */
+            border-radius: 15px;
+            box-shadow: 0 0 15px #ffcc00;
+            text-align: center;
+        }
+
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #333; /* 深色文字 */
+            text-shadow: 0 0 5px #ffffff; /* 增加白色阴影 */
+        }
+
+        /* 按钮样式 */
+        button {
+            background-color: #ffcc00; /* 黄色 */
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #000; /* 黑色 */
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out, transform 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff6699; /* 粉色 */
+            transform: scale(1.1);
+        }
+
+        /* 底部样式 */
+        footer {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #ffcc00; /* 黄色 */
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 0 10px #ffcc00;
+            text-shadow: 0 0 5px #ffffff; /* 增加白色阴影 */
+        }
+
+        /* 动画效果 */
+        header, section, footer {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Wang Shuo's SpongeBob Website
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于我</a></li>
+            <li><a href="contact.html">联系</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro">
+        <p>Hello everyone! My name is Wang Shuo, and I live in Shanghai. I'm currently a high school student.</p>
+        <p>In my free time, I enjoy playing basketball and baseball, as sports keep me energized. Additionally, I'm really into music and am learning to play the guitar. I'm especially a fan of Jay Chou's music style.</p>
+        <p>As for academics, I have a strong interest in both math and Chinese. Even though my math grades aren't the best, I'm very curious about it and enjoy exploring its complexities. I believe that with continuous effort, I can improve in these areas.</p>
+        <p>I'm happy to meet you all and look forward to more opportunities to connect! Thank you!</p>
+    </section>
+
+    <footer>
+        © 2024 Wang Shuo's SpongeBob Website. All Rights Reserved.
+    </footer>
+</body>
+</html>
